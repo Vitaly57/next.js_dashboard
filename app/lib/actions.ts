@@ -150,7 +150,8 @@ export async function updateInvoice(
       message: 'Missing Fields. Failed to Update Invoice.',
     };
   }
- 
+
+
   const { customerId, amount, status } = validatedFields.data;
   const amountInCents = amount * 100;
  
